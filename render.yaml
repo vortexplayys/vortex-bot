@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vortex-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
